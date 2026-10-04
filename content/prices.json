@@ -1,0 +1,82 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "name": "Individual Training",
+      "description": "One-on-one coaching session",
+      "type": "individual",
+      "pricing": {
+        "single": 1500,
+        "package": 600
+      },
+      "unit": "₽",
+      "details": "Personalized training session with individual attention"
+    },
+    {
+      "id": 2,
+      "name": "Group Training",
+      "description": "Small group training session (2-4 people)",
+      "type": "group",
+      "pricing": {
+        "single": 2500,
+        "package": 1550
+      },
+      "unit": "₽",
+      "details": "Group training with peers, perfect for beginners"
+    },
+    {
+      "id": 3,
+      "name": "First Steps",
+      "description": "Beginner program (1x/week)",
+      "type": "program",
+      "program": "first_steps",
+      "frequency": 1,
+      "pricing": {
+        "base": 7950,
+        "min": 4500
+      },
+      "unit": "₽",
+      "details": "Structured beginner program once per week"
+    },
+    {
+      "id": 4,
+      "name": "Debut",
+      "description": "Intermediate program (2x/week)",
+      "type": "program",
+      "program": "debut",
+      "frequency": 2,
+      "pricing": {
+        "base": 15450,
+        "min": 8450
+      },
+      "unit": "₽",
+      "details": "Intensive program for skill development"
+    }
+  ],
+  "additional_services": [
+    {
+      "name": "SFP (Physical Fitness)",
+      "price": 3200,
+      "unit": "₽",
+      "description": "Specialized physical fitness training"
+    },
+    {
+      "name": "Choreography",
+      "price": 3200,
+      "unit": "₽",
+      "description": "Artistic movement and performance training"
+    }
+  ],
+  "discounts": [
+    {
+      "type": "sibling",
+      "description": "Second child discount",
+      "discount": 15
+    },
+    {
+      "type": "package",
+      "description": "Package purchase discount",
+      "discount": 10
+    }
+  ]
+}

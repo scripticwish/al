@@ -1,0 +1,289 @@
+# Angel Team Figure Skating School Website
+
+A modern, responsive website for Angel Team - Figure Skating and Hockey School built with Vue.js 3, featuring multilingual support, booking system, and comprehensive content management.
+
+## 🌟 Features
+
+- **Multilingual Support**: English and Russian with automatic browser detection
+- **Responsive Design**: Mobile-first approach with beautiful animations
+- **Modern UI/UX**: Clean, professional design with sporty aesthetics
+- **Booking System**: Complete booking form with EmailJS integration
+- **Content Management**: JSON-based CMS for easy content updates
+- **Interactive Components**: Dynamic schedules, coach profiles, and product catalog
+- **Performance Optimized**: Fast loading and smooth user experience
+
+## 🚀 Technology Stack
+
+- **Frontend Framework**: Vue.js 3 with Composition API
+- **Build Tool**: Vite
+- **Styling**: Custom CSS with CSS Variables
+- **Routing**: Vue Router 4
+- **Internationalization**: Vue I18n
+- **Email Integration**: EmailJS
+- **Content Management**: JSON files
+
+## 📁 Project Structure
+
+```
+angel-team-figure-skating/
+├── index.html                 # Main HTML file
+├── package.json              # Project dependencies
+├── vite.config.js            # Vite configuration
+├── src/
+│   ├── main.js              # Application entry point
+│   ├── App.vue              # Root Vue component
+│   ├── assets/
+│   │   └── css/
+│   │       └── main.css     # Main stylesheet
+│   ├── components/          # Reusable components
+│   │   ├── AppHeader.vue    # Navigation header
+│   │   └── AppFooter.vue    # Site footer
+│   ├── views/               # Page components
+│   │   ├── Home.vue         # Homepage
+│   │   ├── Coaches.vue      # Coaching staff
+│   │   ├── CoachProfile.vue # Individual coach profiles
+│   │   ├── Schedule.vue     # Training schedule
+│   │   ├── Booking.vue      # Booking system
+│   │   ├── Prices.vue       # Pricing information
+│   │   ├── Shop.vue         # Merchandise store
+│   │   ├── Reviews.vue      # Student reviews
+│   │   └── Contacts.vue     # Contact information
+│   ├── services/
+│   │   └── contentService.js # Data loading service
+│   ├── router.js            # Vue Router configuration
+│   └── i18n.js              # Internationalization setup
+├── content/                  # Content management files
+│   ├── coaches.json         # Coach information
+│   ├── schedule.json        # Training schedules
+│   ├── prices.json          # Pricing data
+│   └── shop.json           # Product catalog
+└── public/                  # Static assets (to be added)
+```
+
+## 🎨 Design System
+
+### Color Palette
+- **Primary Black**: #000000 (Main text)
+- **Primary White**: #FFFFFF (Background)
+- **Accent Red**: #FF3366 (Buttons, highlights)
+- **Dark Gray**: #2D2D2D (Footer, dark blocks)
+- **Light Gray**: #F8F8F8 (Background blocks)
+- **Medium Gray**: #E5E5E5 (Borders)
+- **Text Gray**: #666666 (Secondary text)
+
+### Typography
+- **Headings**: Montserrat (Bold/ExtraBold)
+- **Body Text**: Roboto (Light/Regular)
+- **Navigation**: Open Sans (Medium)
+
+### Font Hierarchy
+- **H1**: 72-84px (ExtraBold)
+- **H2**: 36-42px (Bold)
+- **H3**: 24-28px (Medium)
+- **H4**: 20-24px (Medium)
+- **Body**: 16-18px (Regular)
+- **Small**: 14px (Light)
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository** (if applicable)
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Start development server**:
+   ```bash
+   npm run dev
+   ```
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 📱 Responsive Design
+
+### Breakpoints
+- **Mobile**: 320px - 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px+
+
+### Mobile Features
+- Hamburger navigation menu
+- Touch-friendly interactive elements
+- Optimized form layouts
+- Compressed image placeholders
+
+## 🌍 Internationalization
+
+### Supported Languages
+- **English (en)**: Default language
+- **Russian (ru)**: Full translation support
+
+### Language Detection
+- Automatic browser language detection
+- Manual language switcher in header
+- Local storage preference saving
+
+### Key Translations
+- Navigation menu items
+- Hero section content
+- Call-to-action buttons
+- Form labels and validation
+
+## 📅 Content Management
+
+### Coaches (`content/coaches.json`)
+```json
+{
+  "id": 1,
+  "name": "Coach Name",
+  "position": "Position",
+  "specialization": "Specialization",
+  "photo": "/images/coaches/coach.jpg",
+  "biography": ["Achievement 1", "Achievement 2"],
+  "schedule": { "monday": ["10:00-11:00"], "tuesday": [] },
+  "locations": ["TRK RAY", "TRK OKEANIS"]
+}
+```
+
+### Schedule (`content/schedule.json`)
+```json
+{
+  "venues": {
+    "TRK RAY": {
+      "name": "TRK RAY",
+      "address": "Nizhny Novgorod",
+      "schedule": {
+        "children": { "monday": ["11:15-12:15"] },
+        "adults": { "monday": ["14:30-15:30"] }
+      }
+    }
+  }
+}
+```
+
+### Pricing (`content/prices.json`)
+```json
+{
+  "programs": [
+    {
+      "name": "Individual Training",
+      "pricing": { "single": 1500, "package": 600 },
+      "unit": "₽"
+    }
+  ]
+}
+```
+
+## 🛒 Booking System
+
+### Features
+- **Coach Selection**: Specific coach or any available
+- **Location Choice**: Dynamic based on coach selection
+- **Date & Time**: Interactive calendar and time slots
+- **Client Information**: Required and optional fields
+- **Additional Options**: Group training preferences
+
+### Form Validation
+- Required field validation
+- Email format validation
+- Phone number format validation
+- Form submission feedback
+
+### Email Integration
+- EmailJS integration for form submissions
+- Structured email content
+- Error handling and success messages
+
+## 🛍️ Shop System
+
+### Product Features
+- **Categories**: Costumes, Apparel, Accessories
+- **Variants**: Sizes and colors for applicable items
+- **Cart Functionality**: Add to cart, quantity management
+- **Order Process**: Contact information collection
+
+### Product Structure
+```json
+{
+  "name": "Product Name",
+  "price": 2700,
+  "currency": "₽",
+  "sizes": ["XS", "S", "M", "L", "XL"],
+  "colors": ["White", "Black", "Navy", "Gray"]
+}
+```
+
+## 📊 SEO & Performance
+
+### SEO Optimizations
+- Semantic HTML structure
+- Meta descriptions and titles
+- Alt text for images
+- Structured data markup (ready for implementation)
+
+### Performance Features
+- CSS-in-CSS for faster loading
+- Optimized image placeholders
+- Minimal JavaScript bundle
+- Responsive images ready for implementation
+
+### Accessibility
+- WCAG 2.1 compliance ready
+- Keyboard navigation support
+- Screen reader friendly
+- High contrast mode support
+
+## 🚀 Deployment
+
+### Static Site Generation
+The website is designed as a static site and can be deployed to:
+- **Netlify**: Drag and drop deployment
+- **Vercel**: Git-based deployment
+- **GitHub Pages**: Direct from repository
+- **AWS S3**: Static website hosting
+- **Traditional hosting**: Upload dist folder
+
+### Build Process
+```bash
+npm run build
+```
+
+The build creates a `dist` folder with optimized static files.
+
+## 🔧 Customization
+
+### Adding New Coaches
+1. Add coach data to `content/coaches.json`
+2. Create coach profile page route (if needed)
+3. Update navigation and linking
+
+### Modifying Content
+- Edit JSON files in `content/` folder
+- No code changes required for content updates
+- Automatic reloading in development
+
+### Styling Changes
+- Primary styles in `src/assets/css/main.css`
+- CSS variables for easy theme customization
+- Component-specific styles in individual .vue files
+
+### Adding New Languages
+1. Add translations to `src/i18n.js`
+2. Add language button to header
+3. Update language detection logic
+
+## 📞 Support & Contact
+
+For technical support or questions about the website:
+- Check the FAQ section in Contacts page
+- Review the project documentation
+- Contact the development team
+
+## 📝 License
+
+This project is created for Angel Team Figure Skating School. All rights reserved.
+
+---
+
+**Built with ❤️ for Angel Team**

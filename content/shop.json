@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Velvet Costume",
+      "description": "Professional figure skating costume in elegant velvet fabric",
+      "price": 4900,
+      "currency": "₽",
+      "image": "/images/products/velvet-costume.jpg",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["Black", "Navy", "Burgundy", "Deep Blue"],
+      "category": "costumes"
+    },
+    {
+      "id": 2,
+      "name": "Name & Logo T-shirt",
+      "description": "Comfortable cotton t-shirt with Angel Team logo and customizable name",
+      "price": 2700,
+      "currency": "₽",
+      "image": "/images/products/tshirt.jpg",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Black", "Navy", "Gray"],
+      "category": "apparel"
+    },
+    {
+      "id": 3,
+      "name": "Name & Logo Longsleeve",
+      "description": "Warm longsleeve with Angel Team branding",
+      "price": 2700,
+      "currency": "₽",
+      "image": "/images/products/longsleeve.jpg",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Black", "Navy", "Gray"],
+      "category": "apparel"
+    },
+    {
+      "id": 4,
+      "name": "Name & Logo Vest",
+      "description": "Professional training vest with Angel Team logo",
+      "price": 6000,
+      "currency": "₽",
+      "image": "/images/products/vest.jpg",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["Black", "Navy", "Dark Gray"],
+      "category": "apparel"
+    }
+  ],
+  "categories": [
+    {
+      "id": "costumes",
+      "name": "Costumes",
+      "description": "Professional figure skating costumes"
+    },
+    {
+      "id": "apparel",
+      "name": "Apparel",
+      "description": "Training and casual clothing"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "description": "Skating accessories and equipment"
+    }
+  ]
+}

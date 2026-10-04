@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "name": "Nikolaeva Alisa",
+    "position": "Head Coach",
+    "specialization": "Figure Skating",
+    "photo": "/images/coaches/nikolaeva-alisa.jpg",
+    "biography": [
+      "Started skating at 1.5 years old",
+      "SOR (Sports Oriented Readiness) from 4 years",
+      "Participating in competitions from 6 years",
+      "Nizhny Novgorod region team member"
+    ],
+    "schedule": {
+      "monday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "tuesday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "wednesday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "thursday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "friday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "saturday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "sunday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"]
+    },
+    "locations": ["TRK RAY", "TRK OKEANIS"]
+  },
+  {
+    "id": 2,
+    "name": "Esina Ekaterina",
+    "position": "Coach",
+    "specialization": "Figure Skating",
+    "photo": "/images/coaches/esina-ekaterina.jpg",
+    "biography": [
+      "On ice from 4.5 years old",
+      "All-Russian competitions participant",
+      "Nizhny Novgorod region team member",
+      "Expert in jumping technique"
+    ],
+    "schedule": {
+      "monday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "tuesday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "wednesday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "thursday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "friday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "saturday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"],
+      "sunday": ["10:00-11:00", "14:00-15:00", "19:00-20:00"]
+    },
+    "locations": ["TRK RAY", "ul. NARTOVA"]
+  },
+  {
+    "id": 3,
+    "name": "Pavlova Anastasia",
+    "position": "Coach",
+    "specialization": "Figure Skating",
+    "photo": "/images/coaches/pavlova-anastasia.jpg",
+    "biography": [
+      "Professional figure skater",
+      "Multiple competition winner",
+      "Choreography specialist",
+      "Works with all skill levels"
+    ],
+    "schedule": {
+      "monday": ["11:00-12:00", "15:00-16:00"],
+      "tuesday": ["11:00-12:00", "15:00-16:00"],
+      "wednesday": ["11:00-12:00", "15:00-16:00"],
+      "thursday": ["11:00-12:00", "15:00-16:00"],
+      "friday": ["11:00-12:00", "15:00-16:00"],
+      "saturday": ["11:00-12:00", "15:00-16:00"],
+      "sunday": ["11:00-12:00", "15:00-16:00"]
+    },
+    "locations": ["TRK OKEANIS", "Dzerzhinsk"]
+  },
+  {
+    "id": 4,
+    "name": "Kostycheva Polina",
+    "position": "Coach",
+    "specialization": "Figure Skating",
+    "photo": "/images/coaches/kostycheva-polina.jpg",
+    "biography": [
+      "Skates from 3 years old",
+      "11 years of single skating experience",
+      "Arabesque team member",
+      "Nizhny Novgorod region team"
+    ],
+    "schedule": {
+      "monday": ["13:45-20:45"],
+      "tuesday": [],
+      "wednesday": ["10:15-12:45"],
+      "thursday": ["13:45-20:45"],
+      "friday": [],
+      "saturday": [],
+      "sunday": []
+    },
+    "locations": ["TRK RAY"]
+  },
+  {
+    "id": 5,
+    "name": "Kuznetsov Vladimir",
+    "position": "Coach",
+    "specialization": "Hockey",
+    "photo": "/images/coaches/kuznetsov-vladimir.jpg",
+    "biography": [
+      "Professional hockey player",
+      "Youth development specialist",
+      "7 years coaching experience",
+      "Former professional league player"
+    ],
+    "schedule": {
+      "monday": ["16:00-17:00", "18:00-19:00"],
+      "tuesday": ["16:00-17:00", "18:00-19:00"],
+      "wednesday": ["16:00-17:00", "18:00-19:00"],
+      "thursday": ["16:00-17:00", "18:00-19:00"],
+      "friday": ["16:00-17:00", "18:00-19:00"],
+      "saturday": ["10:00-11:00", "11:00-12:00"],
+      "sunday": ["10:00-11:00", "11:00-12:00"]
+    },
+    "locations": ["Moscow", "Bogorodsk"]
+  },
+  {
+    "id": 6,
+    "name": "Pashintseva Daria",
+    "position": "Coach",
+    "specialization": "Figure Skating",
+    "photo": "/images/coaches/pashintseva-daria.jpg",
+    "biography": [
+      "International competition experience",
+      "Artistic skating specialist",
+      "Performance coaching expert",
+      "Works with advanced students"
+    ],
+    "schedule": {
+      "monday": ["12:00-13:00", "17:00-18:00"],
+      "tuesday": ["12:00-13:00", "17:00-18:00"],
+      "wednesday": ["12:00-13:00", "17:00-18:00"],
+      "thursday": ["12:00-13:00", "17:00-18:00"],
+      "friday": ["12:00-13:00", "17:00-18:00"],
+      "saturday": ["13:00-14:00", "14:00-15:00"],
+      "sunday": ["13:00-14:00", "14:00-15:00"]
+    },
+    "locations": ["TRK RAY", "Nizhny Novgorod"]
+  },
+  {
+    "id": 7,
+    "name": "Meshcheryakova Nadezhda",
+    "position": "Coach",
+    "specialization": "Figure Skating",
+    "photo": "/images/coaches/meshcheryakova-nadezhda.jpg",
+    "biography": [
+      "Technical skating expert",
+      "Jumps and spins specialist",
+      "Competition preparation coach",
+      "10+ years teaching experience"
+    ],
+    "schedule": {
+      "monday": ["14:00-15:00", "20:00-21:00"],
+      "tuesday": ["14:00-15:00", "20:00-21:00"],
+      "wednesday": ["14:00-15:00", "20:00-21:00"],
+      "thursday": ["14:00-15:00", "20:00-21:00"],
+      "friday": ["14:00-15:00", "20:00-21:00"],
+      "saturday": ["15:00-16:00", "16:00-17:00"],
+      "sunday": ["15:00-16:00", "16:00-17:00"]
+    },
+    "locations": ["TRK OKEANIS", "Dzerzhinsk"]
+  },
+  {
+    "id": 8,
+    "name": "Nikitina Irina",
+    "position": "Coach",
+    "specialization": "Figure Skating",
+    "photo": "/images/coaches/nikitina-irina.jpg",
+    "biography": [
+      "Beginner-friendly instructor",
+      "Child development specialist",
+      "Fun learning approach",
+      "Foundation skills expert"
+    ],
+    "schedule": {
+      "monday": ["10:00-11:00", "11:00-12:00"],
+      "tuesday": ["10:00-11:00", "11:00-12:00"],
+      "wednesday": ["10:00-11:00", "11:00-12:00"],
+      "thursday": ["10:00-11:00", "11:00-12:00"],
+      "friday": ["10:00-11:00", "11:00-12:00"],
+      "saturday": ["09:00-10:00", "10:00-11:00"],
+      "sunday": ["09:00-10:00", "10:00-11:00"]
+    },
+    "locations": ["ul. NARTOVA", "Bogorodsk"]
+  }
+]

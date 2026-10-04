@@ -1,0 +1,96 @@
+{
+  "venues": {
+    "TRK RAY": {
+      "name": "TRK RAY",
+      "address": "Nizhny Novgorod",
+      "schedule": {
+        "children": {
+          "monday": ["11:15-12:15", "19:45-20:45"],
+          "saturday": ["11:15-12:15", "13:45-14:45"]
+        },
+        "adults": {
+          "monday": ["14:30-15:30"]
+        },
+        "special_training": {
+          "saturday": ["12:30-13:30"]
+        }
+      }
+    },
+    "TRK OKEANIS": {
+      "name": "TRK OKEANIS",
+      "address": "Nizhny Novgorod",
+      "schedule": {
+        "children": {
+          "tuesday": ["18:00-19:00"],
+          "thursday": ["18:00-19:00"],
+          "saturday": ["11:30-12:30", "13:00-14:00"]
+        },
+        "adults": {
+          "saturday": ["12:00-13:00"]
+        },
+        "special_training": {
+          "thursday": ["16:45-17:45", "17:45-18:45"]
+        }
+      }
+    },
+    "ul. NARTOVA": {
+      "name": "ul. NARTOVA",
+      "address": "Nizhny Novgorod",
+      "schedule": {
+        "children": {
+          "saturday": ["13:00-14:00"]
+        },
+        "special_training": {
+          "monday": ["14:00-15:00"],
+          "saturday": ["12:30-13:30"]
+        }
+      }
+    },
+    "Moscow": {
+      "name": "Moscow Center",
+      "address": "Moscow",
+      "schedule": {
+        "children": {
+          "monday": ["16:00-17:00", "18:00-19:00"],
+          "wednesday": ["16:00-17:00", "18:00-19:00"],
+          "friday": ["16:00-17:00", "18:00-19:00"]
+        },
+        "adults": {
+          "saturday": ["10:00-11:00", "14:00-15:00"]
+        },
+        "hockey": {
+          "tuesday": ["17:00-18:00", "18:00-19:00"],
+          "thursday": ["17:00-18:00", "18:00-19:00"]
+        }
+      }
+    },
+    "Bogorodsk": {
+      "name": "Bogorodsk Ice Arena",
+      "address": "Bogorodsk",
+      "schedule": {
+        "children": {
+          "tuesday": ["15:00-16:00", "16:00-17:00"],
+          "thursday": ["15:00-16:00", "16:00-17:00"],
+          "saturday": ["11:00-12:00"]
+        },
+        "special_training": {
+          "friday": ["14:00-15:00"]
+        }
+      }
+    },
+    "Dzerzhinsk": {
+      "name": "Dzerzhinsk Sports Center",
+      "address": "Dzerzhinsk",
+      "schedule": {
+        "children": {
+          "monday": ["17:00-18:00", "18:00-19:00"],
+          "wednesday": ["17:00-18:00", "18:00-19:00"],
+          "saturday": ["14:00-15:00"]
+        },
+        "adults": {
+          "friday": ["19:00-20:00"]
+        }
+      }
+    }
+  }
+}
