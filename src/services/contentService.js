@@ -1,7 +1,7 @@
 class ContentService {
   async loadCoaches() {
     try {
-      const response = await fetch('/content/coaches.json')
+      const response = await fetch(`${import.meta.env.BASE_URL}content/coaches.json`)
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
@@ -14,7 +14,7 @@ class ContentService {
 
   async loadSchedule() {
     try {
-      const response = await fetch('/content/schedule.json')
+      const response = await fetch(`${import.meta.env.BASE_URL}content/schedule.json`)
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
@@ -27,7 +27,7 @@ class ContentService {
 
   async loadPrices() {
     try {
-      const response = await fetch('/content/prices.json')
+      const response = await fetch(`${import.meta.env.BASE_URL}content/prices.json`)
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
@@ -40,7 +40,7 @@ class ContentService {
 
   async loadShop() {
     try {
-      const response = await fetch('/content/shop.json')
+      const response = await fetch(`${import.meta.env.BASE_URL}content/shop.json`)
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }

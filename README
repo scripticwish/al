@@ -139,7 +139,7 @@ angel-team-figure-skating/
   "name": "Coach Name",
   "position": "Position",
   "specialization": "Specialization",
-  "photo": "/images/coaches/coach.jpg",
+  "photo": "images/coaches/coach.jpg",
   "biography": ["Achievement 1", "Achievement 2"],
   "schedule": { "monday": ["10:00-11:00"], "tuesday": [] },
   "locations": ["TRK RAY", "TRK OKEANIS"]
